@@ -5,12 +5,10 @@
       title="Task Tracker"
       @toggle-add-task="toggleAddTask"
     />
-
     <router-view :showAddTask="showAddTask"> </router-view>
     <TaskFooter />
   </div>
 </template>
-
 <script>
 import TaskHeader from "./components/TaskHeader";
 import TaskFooter from "./components/TaskFooter";
